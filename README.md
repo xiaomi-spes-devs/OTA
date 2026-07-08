@@ -48,7 +48,7 @@ adb sideload lineage-packagename.zip
 Reboot to System
 
 ### Manually updating from LineageOS Updater
-Look at the [FAQS](https://github.com/Nothing-2A/releases#faqs), question 5
+Look at the [FAQS](https://github.com/Nothing-2A/releases#faqs), question 4
 
 ### Reporting bugs / requesting features
 Create an issue [here](https://github.com/Nothing-2A/releases/issues) with the LineageOS exact version and steps on how to reproduce if it's an issue or what you want to be added into LineageOS.
@@ -64,31 +64,27 @@ Answer: The latest firmware available for Pacman is included on the LineageOS .z
 
 **Q2: Are Google Apps included with LineageOS ?**
 
-Answer: Yes they are, however it's a very minimal list of Google Apps that are included with the LineageOS .zip package which give you access to the Google Mobile Services, you can check the list on [MindTheGapps gitlab](https://gitlab.com/MindTheGapps/vendor_gapps).
+Answer: Only for the GMS builds, the Google Apps in those builds come from MindTheGapps. Non GMS build remains vanilla.
 
-**Q3: Will there be any Google Apps free release of LineageOS ?**
-
-Answer: Maybe, but it isn't planned at the moment with the **UNOFFICIAL** release of LineageOS, however they will most likely come Google Apps free and without any [fenrir](https://github.com/r0rt1z2/fenrir) support if I apply for **OFFICIAL** one day.
-
-**Q4: Is the LineageOS .zip package is signed and passes SafetyNet and Play Integrity ?**
+**Q3: Is the LineageOS .zip package is signed and passes SafetyNet and Play Integrity ?**
 
 Answer: No, however you can flash [fenrir](https://github.com/r0rt1z2/fenrir) to pass BASIC_INTEGRITY, DEVICE_INTEGRITY and STRONG_INTEGRITY !
 
 I personnally recommend you to flash [fenrir](https://github.com/r0rt1z2/fenrir) on both lk slots from the bootloader directly after flashing LineageOS.
 
-**Q5: How do I update to another release of LineageOS ?**
+**Q4: How do I update to another release of LineageOS ?**
 
 Answer: Simply download the latest .zip package of LineageOS available [here](https://github.com/Nothing-2A/releases/releases) from your smartphone and then go to Settings -> System -> System Update -> Click on the three dots -> Local update and select the downloaded .zip package from here. It will run the update process automatically afterwards.
 
-**Q6: I've followed the steps for updating LineageOS localy but the update disapeared from the list before I clicked on the reboot option from the Updater**
+**Q5: I've followed the steps for updating LineageOS localy but the update disapeared from the list before I clicked on the reboot option from the Updater**
 
 Answer: It's a known bug with LineageOS updater with local updates, simply follow again the steps to add the LineageOS .zip packages from your smartphone storage into the updater and the update will be available again from the Updater app.
 
-**Q7: How long can I expect a new release of LineageOS ?**
+**Q6: How long can I expect a new release of LineageOS ?**
 
 Answer: Most likely the following month or a few weeks later if it's not an **HOTFIX** release, you won't have an exact date/time however since I do this out of my free time.
 
-**Q8: I love your work ! Can I give you a donation ?**
+**Q7: I love your work ! Can I give you a donation ?**
 
 Answer: Of course ! You can simply do your donation at my PayPal [here](https://paypal.me/eliasgheeraert).
 
