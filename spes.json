@@ -1,14 +1,14 @@
 [
   {
-    "datetime": 1784388374,
+    "datetime": 1785337231,
     "files": [
       {
-        "filename": "lineage-23.2-20260718-UNOFFICIAL-spes.zip",
+        "filename": "lineage-23.2-20260729-UNOFFICIAL-spes.zip",
         "os_patch_level": "2026-07-01",
         "os_sdk_level": 36,
-        "sha256": "110120813A40B32821D51080CE6EB0F08F36F5016708FC0250DFFF734298010D",
-        "size": 1418129189,
-        "url": "https://github.com/xiaomi-spes-devs/OTA/releases/download/tag/23.2-20260718-UNOFFICIAL-spes/lineage-23.2-20260718-UNOFFICIAL-spes.zip"
+        "sha256": "659D6D473D437F8ECC3A4C0D9F5DB9FB76E7A03F9E50EC761DD34947C98F365A",
+        "size": 1417696737,
+        "url": "https://github.com/xiaomi-spes-devs/OTA/releases/download/tag/23.2-20260729-UNOFFICIAL-spes/lineage-23.2-20260729-UNOFFICIAL-spes.zip"
       }
     ],
     "type": "UNOFFICIAL",
