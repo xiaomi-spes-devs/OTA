@@ -3,9 +3,11 @@
 ### Requirements
 The latest Android 16 firmware, an [unlocked bootloader](https://github.com/TheAirBlow/HyperSploit) and USB debugging enabled from developer options.
 
-The latest LineageOS .zip package and boot, super_empty and vendor_boot .img files for spes available [here](https://github.com/xiaomi-spes-devs/OTA/releases).
+The latest LineageOS .zip package and boot, KSU_boot, super_empty and vendor_boot .img files for spes available [here](https://github.com/xiaomi-spes-devs/OTA/releases).
 
 The latest version of [Google's platform-tools](https://developer.android.com/tools/releases/platform-tools?hl=en#downloads) and a computer.
+
+If you want to install KernelSU for root, flash the KSU_boot.img from the same release page instead of the regular boot.img, and install the KernelSU APK from that release as well.
 
 ### First flash steps
 Reboot to bootloader
@@ -13,11 +15,20 @@ Reboot to bootloader
 adb reboot bootloader
 ```
 
-Flash LineageOS recovery
+Flash Boot Image
 ```
 fastboot flash boot boot.img
+```
+
+If you want KernelSU root instead of the stock boot image, flash the KSU boot image from the release page:
+```
+fastboot flash boot KSU_boot.img
+```
+Then install the KernelSU APK from the same release page on your device.
+
+Flash LineageOS recovery
+```
 fastboot flash vendor_boot vendor_boot.img
-fastboot wipe-super super_empty.img
 ```
 
 Reboot to recovery
@@ -87,10 +98,6 @@ Answer: It's a known bug with LineageOS updater with local updates, simply follo
 **Q6: How long can I expect a new release of LineageOS ?**
 
 Answer: Most likely the following month or a few weeks later if it's not an **HOTFIX** release, you won't have an exact date/time however since I do this out of my free time.
-
-**Q7: I love your work ! Can I give you a donation ?**
-
-Answer: Of course ! You can simply do your donation at my PayPal [here](https://paypal.me/eliasgheeraert).
 
 ### Copyrights
 Your warranty is now voided and I am not responsible for any bricks or bootloop.
